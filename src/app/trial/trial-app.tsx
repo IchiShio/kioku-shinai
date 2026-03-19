@@ -100,7 +100,7 @@ function L1({ word, fmt, ans, onAns, play }: FP) {
   );
 }
 
-/** 穴埋め */
+/** 穴埋め — 単語名は非表示（答えがバレるため） */
 function L2({ word, fmt, ans, onAns, play }: FP) {
   const [a, b] = (fmt.sentence || "").split("______");
   const filled = ans !== null ? fmt.choices[ans] : null;
@@ -108,9 +108,6 @@ function L2({ word, fmt, ans, onAns, play }: FP) {
   return (
     <>
       <div className="py-6 text-center">
-        <button onClick={() => play(`/audio/${word.word}/word.mp3`)} className="text-2xl font-black text-text2 hover:text-accent transition-colors cursor-pointer mb-5 block mx-auto">
-          {word.word}
-        </button>
         <p className="text-xl leading-relaxed text-ink font-medium px-2">
           {a}
           <span className={`inline-block min-w-[100px] border-b-3 mx-1 pb-0.5 font-black ${filled ? ok ? "border-correct text-correct" : "border-wrong text-wrong" : "border-accent"}`}>
