@@ -1,0 +1,97 @@
+{
+  "word": "ubiquitous",
+  "phonetic": "/juːˈbɪkwɪtəs/",
+  "level": "intermediate",
+  "parts": [
+    { "part": "ubique", "meaning": "どこにでも", "lang": "ラテン語" },
+    { "part": "-ous", "meaning": "〜の性質を持つ", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "ubiquitous の意味に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "どこにでも存在する",
+        "非常に便利な",
+        "避けられない",
+        "世界中で人気の"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "Smartphones have become ______ in modern life.",
+      "hint": "「どこにでも存在するようになった」",
+      "explanationFocus": "gap",
+      "choices": ["ubiquitous", "universal", "essential", "popular"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "ubiquitous の語源 ubique はどの語の組み合わせ？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "ubi（どこ）+ que（でも）",
+        "uber（超えて）+ quis（誰）",
+        "unus（一つ）+ quod（こと）",
+        "ultra（向こう）+ quam（より）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "ubiquitous と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "ubiquitous presence",
+        "ubiquitous speed",
+        "ubiquitous quality",
+        "ubiquitous strength"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"The ubiquitous coffee chain has over 30,000 stores worldwide.\" — ubiquitous はどういうニュアンス？",
+      "explanationFocus": "hook",
+      "choices": [
+        "どこにでもある（逃れられないほど）",
+        "世界的に有名な",
+        "非常に成功した",
+        "急速に拡大している"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "Smartphones have become ubiquitous in modern life.",
+    "The ubiquitous coffee chain has over 30,000 stores worldwide.",
+    "Plastic pollution is now ubiquitous in the world's oceans."
+  ],
+  "etymology": {
+    "fact": "ラテン語 ubique（ubi＝どこ + que＝でも）＝「どこにでも」。16世紀の神学論争でキリストの「遍在（ubiquity）」を議論する中で英語に入った。",
+    "source": "EtymOnline: https://www.etymonline.com/word/ubiquitous",
+    "cognates": ["ubiquity（遍在）"],
+    "oneliner": "ubi（どこ）+ que（でも）＝ どこにでもある"
+  },
+  "cognitive": {
+    "fact": "英語では空間的な広がりを量の多さとして認知する。everywhere, widespread, pervasive。ubiquitous は「空間のすべての点に存在する」という極端な遍在。",
+    "source": "Talmy (2000) — Fictive Motion / Spatial Distribution",
+    "label": "認知言語学",
+    "oneliner": "ubiquitous は空間の全点に存在するイメージ。量ではなく分布。"
+  },
+  "gap": "「どこにでもある」だと common や widespread と同じに聞こえる。ubiquitous は「避けようとしても避けられないほどどこにでもある」。common は頻度が高い、ubiquitous は空間的に逃げ場がない。",
+  "gapOneliner": "「よくある」じゃない。「逃げ場がないほどどこにでもある」。",
+  "hook": {
+    "text": "コンビニ。右を見ても左を見ても、角を曲がってもまたコンビニ。その「逃げられない遍在感」が ubiquitous。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

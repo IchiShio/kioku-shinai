@@ -1,0 +1,97 @@
+{
+  "word": "realize",
+  "phonetic": "/ˈriːəlaɪz/",
+  "level": "beginner",
+  "parts": [
+    { "part": "reālis", "meaning": "現実の・実在の", "lang": "ラテン語" },
+    { "part": "-ize", "meaning": "〜にする", "lang": "ギリシャ語由来" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "realize の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "現実のものにする",
+        "頭で理解する",
+        "急に思い出す",
+        "深く反省する"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "I didn't ______ how late it was until I looked at the clock.",
+      "hint": "「時計を見て初めて現実として認識した」",
+      "explanationFocus": "gap",
+      "choices": ["realize", "recognize", "remember", "recall"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "realize と同じ語源（reālis＝現実の）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "real（現実の）",
+        "reveal（明らかにする）",
+        "relate（関係する）",
+        "release（解放する）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "realize と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "realize one's dream",
+        "realize one's house",
+        "realize one's schedule",
+        "realize one's address"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"The company realized a profit of $2 million.\" — realize はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "200万ドルの利益を実現した（得た）",
+        "200万ドルの利益に気づいた",
+        "200万ドルの利益を理解した",
+        "200万ドルの利益を予想した"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "I didn't realize how late it was until I looked at the clock.",
+    "She finally realized her dream of becoming a doctor.",
+    "The company realized a profit of $2 million."
+  ],
+  "etymology": {
+    "fact": "フランス語 réaliser（reālis＝現実の + -ize＝〜にする）。「現実のものにする」が原義。17世紀に「心の中で現実として認識する」→「気づく」の意味が加わった。",
+    "source": "EtymOnline: https://www.etymonline.com/word/realize",
+    "cognates": ["real（現実の）", "reality（現実）", "realism（写実主義）"],
+    "oneliner": "reālis（現実の）+ -ize（〜にする）＝ 現実のものにする"
+  },
+  "cognitive": {
+    "fact": "英語では「知る」瞬間を「光が差す」と認知する。It dawned on me, I was in the dark。realize は「ぼんやりしたものが現実として目の前に現れる」体験。",
+    "source": "Lakoff & Johnson (1980) — KNOWING IS SEEING / IDEAS ARE LIGHT SOURCES",
+    "label": "認知言語学",
+    "oneliner": "realize は霧が晴れて現実が見える瞬間。"
+  },
+  "gap": "「気づく」だけだと notice と同じになる。realize は「バラバラだった情報が現実として立ち上がる」瞬間。notice は感覚的に捉える、realize は認知的に「現実化する」。だから realize a dream（夢を実現する）も同じ根。",
+  "gapOneliner": "「気づく」じゃない。「頭の中で現実になる」瞬間。",
+  "hook": {
+    "text": "ピントが合っていなかった写真が一瞬でクリアになる。ぼやけた世界が real になる。それが realize。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

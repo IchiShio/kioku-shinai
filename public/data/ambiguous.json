@@ -1,0 +1,97 @@
+{
+  "word": "ambiguous",
+  "phonetic": "/æmˈbɪɡjuəs/",
+  "level": "intermediate",
+  "parts": [
+    { "part": "ambi", "meaning": "両方に・あちこちに", "lang": "ラテン語" },
+    { "part": "agere", "meaning": "動かす・駆り立てる", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "ambiguous の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "あちこちに揺れ動く",
+        "はっきりしない",
+        "二つの意味を持つ",
+        "混乱させる"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "The contract language was ______, so both sides interpreted it differently.",
+      "hint": "「あちこちに解釈が揺れる」",
+      "explanationFocus": "gap",
+      "choices": ["ambiguous", "unclear", "confusing", "vague"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "ambiguous と同じ接頭辞（ambi＝両方に）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "ambidextrous（両利きの）",
+        "ambitious（野心的な）",
+        "ambulance（救急車）",
+        "ample（十分な）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "ambiguous と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "ambiguous wording",
+        "ambiguous color",
+        "ambiguous speed",
+        "ambiguous temperature"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"His ambiguous smile made it impossible to tell if he was pleased or annoyed.\" — ambiguous はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "どちらとも取れる（喜びか苛立ちか判別不能）",
+        "不自然な（本心を隠している）",
+        "微かな（ほとんど見えない）",
+        "一瞬の（すぐ消えた）"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "The contract language was ambiguous, so both sides interpreted it differently.",
+    "His ambiguous smile made it impossible to tell if he was pleased or annoyed.",
+    "The test results were ambiguous and required further analysis."
+  ],
+  "etymology": {
+    "fact": "ラテン語 ambiguus（ambi＝両方に・あちこちに + agere＝動かす・駆り立てる）。「あちこちに駆り立てられる」→「どちらにも取れる」が原義。",
+    "source": "EtymOnline: https://www.etymonline.com/word/ambiguous",
+    "cognates": ["ambidextrous（両利きの — 両方の右手）", "ambivalent（両面感情の — 両方に価値がある）"],
+    "oneliner": "ambi（両方に）+ agere（駆り立てる）＝ あちこちに揺れる"
+  },
+  "cognitive": {
+    "fact": "英語では明確さを「見える」、不明確さを「見えない・ぼやける」と認知する。clear, transparent vs. obscure, fuzzy。ambiguous は視点が二方向に引っ張られて焦点が合わない状態。",
+    "source": "Lakoff & Johnson (1980) — UNDERSTANDING IS SEEING / CLARITY IS VISUAL SHARPNESS",
+    "label": "認知言語学",
+    "oneliner": "ambiguous は目が二方向に引っ張られてピントが合わない。"
+  },
+  "gap": "「曖昧な」だと vague と同じになる。vague は「ぼんやりしていて掴みどころがない」。ambiguous は「2つ以上の明確な解釈が成り立つ」。vague は霧、ambiguous は分岐点。",
+  "gapOneliner": "vague は「霧で見えない」。ambiguous は「道が二股に分かれている」。",
+  "hook": {
+    "text": "Y字路に立って、右にも左にも同じ看板が出ている。どっちに行けばいいかわからない。その分岐が ambiguous。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

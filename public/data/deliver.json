@@ -1,0 +1,97 @@
+{
+  "word": "deliver",
+  "phonetic": "/dɪˈlɪvər/",
+  "level": "beginner",
+  "parts": [
+    { "part": "de", "meaning": "完全に・離して", "lang": "ラテン語" },
+    { "part": "līberāre", "meaning": "自由にする", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "deliver の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "自由にして解き放つ",
+        "荷物を届ける",
+        "約束を果たす",
+        "赤ちゃんを取り上げる"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "The package will be ______ by tomorrow morning.",
+      "hint": "「荷物を解放して届け先に渡す」",
+      "explanationFocus": "gap",
+      "choices": ["delivered", "shipped", "transported", "forwarded"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "deliver と同じ語源（līber＝自由な）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "liberty（自由）",
+        "liver（肝臓）",
+        "library（図書館）",
+        "linger（長居する）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "deliver と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "deliver a speech",
+        "deliver a thought",
+        "deliver an idea",
+        "deliver a plan"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"The doctor delivered the baby safely.\" — deliver はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "赤ちゃんを取り上げた（母体から解放した）",
+        "赤ちゃんを安全な場所に届けた",
+        "赤ちゃんを抱き上げた",
+        "赤ちゃんの健康を確認した"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "The package will be delivered by tomorrow morning.",
+    "She delivered an inspiring speech at the conference.",
+    "The doctor delivered the baby safely."
+  ],
+  "etymology": {
+    "fact": "ラテン語 dēlīberāre（de＝完全に + līberāre＝自由にする、līber＝自由な）。「完全に自由にする・解放する」が原義。古フランス語 délivrer を経て英語へ。",
+    "source": "EtymOnline: https://www.etymonline.com/word/deliver",
+    "cognates": ["liberty（自由）", "liberal（自由主義の）", "liberate（解放する）"],
+    "oneliner": "de（完全に）+ līberāre（自由にする）＝ 解き放つ"
+  },
+  "cognitive": {
+    "fact": "英語では「渡す」行為を「束縛からの解放」として認知する。deliver a speech＝言葉を自分の中から解放する。deliver a baby＝赤ちゃんを母体から解放する。すべて「解き放つ」のスキーマ。",
+    "source": "Langacker (1987) — Image Schema: CONTAINMENT → RELEASE",
+    "label": "認知言語学",
+    "oneliner": "deliver は「容器から解放する」。荷物も言葉も赤ちゃんも。"
+  },
+  "gap": "「届ける」だけだと send や bring と同じになる。deliver の核は「解放して手渡す」。荷物は倉庫から解放、スピーチは自分の中から解放、赤ちゃんは母体から解放。全部「自由にする」。",
+  "gapOneliner": "「届ける」じゃない。「解き放って渡す」。",
+  "hook": {
+    "text": "鎖でつながれた荷物の鍵を開けて、相手の手に渡す。その「解放→手渡し」が deliver。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

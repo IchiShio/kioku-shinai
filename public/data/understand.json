@@ -1,0 +1,97 @@
+{
+  "word": "understand",
+  "phonetic": "/ˌʌndərˈstænd/",
+  "level": "beginner",
+  "parts": [
+    { "part": "under", "meaning": "間に・中に", "lang": "古英語" },
+    { "part": "standan", "meaning": "立つ", "lang": "古英語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "understand の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "物事の間に立って把握する",
+        "下から見上げて知る",
+        "頭の中で考える",
+        "説明を聞いて納得する"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "I finally ______ the concept after reading the chapter twice.",
+      "hint": "「2回読んでようやく概念を把握した」",
+      "explanationFocus": "gap",
+      "choices": ["understood", "memorized", "noticed", "imagined"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "understand の under- は本来どういう意味？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "間に（among）",
+        "下に（below）",
+        "上に（above）",
+        "外に（outside）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "understand と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "fully understand the situation",
+        "deeply understand the situation",
+        "strongly understand the situation",
+        "heavily understand the situation"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"I understand you're leaving next week.\" — understand はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "〜だと聞いている・認識している",
+        "〜を理解して賛成している",
+        "〜を残念に思っている",
+        "〜を信じられない"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "I finally understood the concept after reading the chapter twice.",
+    "I understand you're leaving next week.",
+    "She understands three languages fluently."
+  ],
+  "etymology": {
+    "fact": "古英語 understandan（under＝間に + standan＝立つ）。「物事の間に立つ」→「物事の中にいて把握する」が原義。under は「下」ではなく「間に（among）」の意味。",
+    "source": "EtymOnline: https://www.etymonline.com/word/understand",
+    "cognates": ["withstand（耐える — 対抗して立つ）", "outstanding（傑出した — 外に立つ）"],
+    "oneliner": "under（間に）+ stand（立つ）＝ 物事の間に立って把握する"
+  },
+  "cognitive": {
+    "fact": "英語では理解を「把握する（grasp）」「見る（see）」と認知する。UNDERSTANDING IS GRASPING / KNOWING IS SEEING。understand は物事の「中に立つ」身体経験がベース。",
+    "source": "Lakoff & Johnson (1980) — UNDERSTANDING IS GRASPING",
+    "label": "認知言語学",
+    "oneliner": "理解＝「掴む」「見る」。understand は物事の中に立つこと。"
+  },
+  "gap": "「理解する」だと know や comprehend と区別がつかない。understand の核は「状況の中に身を置いて体感的にわかる」。I understand your frustration ＝「あなたの苛立ちの中に立っている＝共感的にわかる」。",
+  "gapOneliner": "「知っている」じゃない。「あなたの中に立っている」。",
+  "hook": {
+    "text": "ジグソーパズルのピースの間に立って、全体像が見える瞬間。それが understand。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "word": "resilient",
+  "phonetic": "/rɪˈzɪliənt/",
+  "level": "intermediate",
+  "parts": [
+    { "part": "re", "meaning": "後ろへ・戻って", "lang": "ラテン語" },
+    { "part": "salīre", "meaning": "跳ぶ", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "resilient の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "跳ね返る",
+        "耐え忍ぶ",
+        "強く立つ",
+        "壊れない"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "Children are remarkably ______ — they bounce back from setbacks quickly.",
+      "hint": "「挫折から素早く跳ね返る」",
+      "explanationFocus": "gap",
+      "choices": ["resilient", "resistant", "persistent", "consistent"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "resilient と同じ語源（salīre＝跳ぶ）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "salient（顕著な — 跳び出す）",
+        "silent（静かな）",
+        "resident（居住者）",
+        "reliable（信頼できる）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "resilient と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "resilient community",
+        "resilient furniture",
+        "resilient weather",
+        "resilient schedule"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"The resilient material returned to its original shape after being compressed.\" — resilient はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "圧縮後に元の形に戻る弾力性がある",
+        "圧縮に耐える強度がある",
+        "圧縮しても壊れない硬さがある",
+        "圧縮を跳ね返す反発力がある"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "Children are remarkably resilient — they bounce back from setbacks quickly.",
+    "The resilient material returned to its original shape after being compressed.",
+    "She proved resilient in the face of adversity."
+  ],
+  "etymology": {
+    "fact": "ラテン語 resilīre（re＝後ろへ + salīre＝跳ぶ）。「跳ね返る」が原義。物理学で弾性体が変形後に元に戻ることを指し、そこから心理的な「回復力」の意味へ拡張。",
+    "source": "EtymOnline: https://www.etymonline.com/word/resilient",
+    "cognates": ["salient（顕著な — 跳び出す）", "result（結果 — 跳ね返ったもの）", "assault（攻撃 — 跳びかかる）"],
+    "oneliner": "re（後ろへ）+ salīre（跳ぶ）＝ 跳ね返る"
+  },
+  "cognitive": {
+    "fact": "英語では困難からの回復を「上方向の動き」として認知する。bounce back, get back on one's feet, rise above。resilient は「下に押されても跳ね返る」身体スキーマ。",
+    "source": "Lakoff & Johnson (1980) — GOOD IS UP / HEALTH IS UP",
+    "label": "認知言語学",
+    "oneliner": "resilient は「落ちても跳ね上がる」。良いこと＝上。"
+  },
+  "gap": "「強い」「タフ」だと tough や strong と同じ。resilient は「変形しても元に戻る」。tough は壊れない硬さ、resilient は曲がっても戻るしなやかさ。竹のようなイメージ。",
+  "gapOneliner": "「強い」じゃない。「曲がっても戻る」しなやかさ。",
+  "hook": {
+    "text": "ゴムボールを床に叩きつける。潰れても一瞬で跳ね返る。その「弾む力」が resilient。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

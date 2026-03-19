@@ -1,0 +1,97 @@
+{
+  "word": "consider",
+  "phonetic": "/kənˈsɪdər/",
+  "level": "beginner",
+  "parts": [
+    { "part": "con", "meaning": "一緒に・じっくり", "lang": "ラテン語" },
+    { "part": "sīdus", "meaning": "星", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "consider の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "星をじっくり観察する",
+        "心の中で計算する",
+        "選択肢を比べる",
+        "深く悩む"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "Please ______ all the options before making a decision.",
+      "hint": "「決める前にすべての選択肢をじっくり見る」",
+      "explanationFocus": "gap",
+      "choices": ["consider", "examine", "compare", "select"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "consider と同じ語源（sīdus＝星）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "sidereal（恒星の）",
+        "sincere（誠実な）",
+        "consist（構成する）",
+        "consent（同意する）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "consider と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "consider the possibility",
+        "consider the speed",
+        "consider the color",
+        "consider the weather"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"She is considered an expert in the field.\" — consider はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "〜とみなされている・評価されている",
+        "〜と考えている最中だ",
+        "〜と心配されている",
+        "〜と推薦されている"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "Please consider all the options before making a decision.",
+    "She is considered an expert in the field.",
+    "I'm considering moving to a new city."
+  ],
+  "etymology": {
+    "fact": "ラテン語 consīderāre（con＝一緒に・じっくり + sīdus＝星）。古代ローマで占星術師が星をじっくり観察して吉兆を読むことが原義。「注意深く観る」→「熟慮する」。",
+    "source": "EtymOnline: https://www.etymonline.com/word/consider",
+    "cognates": ["sidereal（恒星の）", "desire（渇望する — de＋sīdus、星から離れる→星に焦がれる）"],
+    "oneliner": "con（じっくり）+ sīdus（星）＝ 星をじっくり観察する"
+  },
+  "cognitive": {
+    "fact": "英語では思考を「視覚」として認知する。I see your point, look at it this way。consider の「星を観る」原義は THINKING IS SEEING メタファーそのもの。",
+    "source": "Lakoff & Johnson (1980) — THINKING IS SEEING",
+    "label": "認知言語学",
+    "oneliner": "考える＝見る。consider は夜空の星をじっと見つめること。"
+  },
+  "gap": "「考える」だけだと think と同じになる。consider は「全体像を見渡してから判断する」ニュアンス。think は頭の中の作業、consider は外の情報をじっくり観察する行為。",
+  "gapOneliner": "think は「頭で考える」。consider は「星を見るように観察する」。",
+  "hook": {
+    "text": "古代の占星術師が夜空を見上げ、星座の配置をじっくり読んでいる。その真剣な眼差しが consider。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}
