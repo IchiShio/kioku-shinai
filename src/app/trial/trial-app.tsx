@@ -350,9 +350,21 @@ export default function TrialApp({ words }: { words: Record<string, WordData[]> 
   const play = useCallback((p: string) => { new Audio(p).play().catch(() => {}); }, []);
 
   const handleFeedback = useCallback((data: FD) => {
+    const payload = { ...data, level, correct, total, ts: Date.now() };
+    // localStorage backup
     const e = JSON.parse(localStorage.getItem("kioku_feedback") || "[]");
-    e.push({ ...data, level, correct, total, ts: Date.now() });
+    e.push(payload);
     localStorage.setItem("kioku_feedback", JSON.stringify(e));
+    // Send to GAS (fire-and-forget)
+    const url = process.env.NEXT_PUBLIC_FEEDBACK_URL;
+    if (url) {
+      fetch(url, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      }).catch(() => {});
+    }
     setPhase("complete");
   }, [level, correct, total]);
 
