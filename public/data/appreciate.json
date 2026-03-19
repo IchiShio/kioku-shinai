@@ -1,0 +1,97 @@
+{
+  "word": "appreciate",
+  "phonetic": "/əˈpriːʃieɪt/",
+  "level": "beginner",
+  "parts": [
+    { "part": "ad", "meaning": "〜に向けて", "lang": "ラテン語" },
+    { "part": "pretium", "meaning": "価格・価値", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "appreciate の本質的な意味は？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "価値を正しく見積もる",
+        "ありがとうと言う",
+        "好意に気づく",
+        "恩返しをする"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "I ______ your honesty.",
+      "hint": "「あなたの正直さの価値がわかる」",
+      "explanationFocus": "gap",
+      "choices": ["appreciate", "thank", "accept", "approve"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "appreciate と同じ語源（pretium）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "price（価格）",
+        "practice（練習）",
+        "prepare（準備する）",
+        "approve（承認する）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "appreciate と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "I'd appreciate your help.",
+        "I'd appreciate your sorry.",
+        "I'd appreciate your hello.",
+        "I'd appreciate your goodbye."
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"The property appreciated by 20% over five years.\" — appreciate はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "不動産の価値が5年で20%上がった",
+        "不動産に20%の感謝が集まった",
+        "不動産を5年かけて20%評価した",
+        "不動産の20%を5年間感謝した"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "I appreciate your honesty.",
+    "I'd appreciate it if you could help.",
+    "The property appreciated by 20% over five years."
+  ],
+  "etymology": {
+    "fact": "ラテン語 appretiāre（ad＝〜に向けて + pretium＝価格・価値）。「正しい値段をつける」が原義。",
+    "source": "EtymOnline: https://www.etymonline.com/word/appreciate",
+    "cognates": ["price（価格）", "precious（貴重な）", "appraise（査定する）"],
+    "oneliner": "ad（向けて）+ pretium（価格）＝ 正しい値段をつける"
+  },
+  "cognitive": {
+    "fact": "英語では価値あるものを「重い」と認知する（weighty argument, heavy responsibility）。appreciate は対象の「重さを手で確かめる」身体感覚。",
+    "source": "Lakoff & Johnson (1980) — IMPORTANT IS HEAVY",
+    "label": "認知言語学",
+    "oneliner": "価値は「重さ」。appreciate は重さを確かめる行為。"
+  },
+  "gap": "「感謝する」だけだと I appreciate it が平坦になる。本質は「価値を測る」。I appreciate your effort ＝「あなたの努力の値打ちがわかっている」。不動産の appreciate（値上がり）も同じ根。",
+  "gapOneliner": "「感謝」じゃない。「あなたの価値がわかっている」。",
+  "hook": {
+    "text": "宝石鑑定士がルーペで覗いて値段をつける。その行為が appreciate。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

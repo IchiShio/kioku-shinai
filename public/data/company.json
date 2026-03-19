@@ -1,0 +1,97 @@
+{
+  "word": "company",
+  "phonetic": "/ˈkʌmpəni/",
+  "level": "beginner",
+  "parts": [
+    { "part": "com", "meaning": "一緒に", "lang": "ラテン語" },
+    { "part": "panis", "meaning": "パン", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "この単語の本質的な意味は？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "パンを一緒に食べる仲間",
+        "大きな組織",
+        "お金を稼ぐ場所",
+        "ビジネスの単位"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "I enjoy your ______.",
+      "hint": "「あなたと一緒にいるのが楽しい」",
+      "explanationFocus": "gap",
+      "choices": ["company", "companion", "community", "commerce"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "company の語源の組み合わせとして正しいものは？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "com（一緒に）+ panis（パン）",
+        "com（完全に）+ pany（支払い）",
+        "comp（比較）+ any（いずれか）",
+        "con（反対）+ pan（全て）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "company の原義「仲間」に最も近い使い方は？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "keep someone company（誰かのそばにいる）",
+        "company policy（会社の方針）",
+        "company car（社用車）",
+        "parent company（親会社）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"Two's company, three's a crowd.\" — company はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "2人なら心地よい仲間、3人だと窮屈",
+        "2社あれば十分、3社は多すぎる",
+        "2つの会社が合併し、3つ目は排除された",
+        "2人で会社を作り、3人目を雇った"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "I enjoy your company.",
+    "Two's company, three's a crowd.",
+    "She kept me company during the long wait."
+  ],
+  "etymology": {
+    "fact": "ラテン語 companio（com＝一緒に + panis＝パン）。「パンを分け合う仲間」が原義。古フランス語 compagnie を経て英語へ。",
+    "source": "EtymOnline: https://www.etymonline.com/word/company",
+    "cognates": ["companion（仲間）", "accompany（同行する）"],
+    "oneliner": "com（一緒に）+ panis（パン）＝ パンを分け合う仲間"
+  },
+  "cognitive": {
+    "fact": "英語では人間関係を「容器」として認知する。in good company（良い仲間の中にいる）、part company（仲間から出る）。company は人が「入る」「出る」もの。",
+    "source": "Lakoff & Johnson (1980) — RELATIONSHIPS ARE CONTAINERS",
+    "label": "認知言語学",
+    "oneliner": "company は「容器」。人が入ったり出たりする。"
+  },
+  "gap": "日本語の「会社」は建物・法人のイメージ。でも原義は「一緒にパンを食べる関係」。だから enjoy your company（あなたと一緒にいるのが楽しい）が自然に使える。",
+  "gapOneliner": "「会社」じゃない。「一緒にパンを食べる関係」。",
+  "hook": {
+    "text": "食卓を囲んでパンを裂く場面。その輪がcompany。会議室ではなく、食卓。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}

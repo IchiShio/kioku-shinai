@@ -1,0 +1,97 @@
+{
+  "word": "volatile",
+  "phonetic": "/ˈvɒlətaɪl/",
+  "level": "intermediate",
+  "parts": [
+    { "part": "volāre", "meaning": "飛ぶ", "lang": "ラテン語" },
+    { "part": "-tilis", "meaning": "〜しやすい", "lang": "ラテン語" }
+  ],
+  "formats": [
+    {
+      "type": "英→日選択",
+      "difficulty": 1,
+      "instruction": "volatile の原義に最も近いのは？",
+      "explanationFocus": "etymology",
+      "choices": [
+        "飛び去りやすい",
+        "危険な",
+        "不安定な",
+        "爆発しやすい"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "穴埋め",
+      "difficulty": 2,
+      "instruction": "空欄に入る単語は？",
+      "sentence": "The stock market has been extremely ______ this week.",
+      "hint": "「いつ急変して飛ぶかわからない」",
+      "explanationFocus": "gap",
+      "choices": ["volatile", "unstable", "dangerous", "risky"],
+      "correct": 0
+    },
+    {
+      "type": "語源クイズ",
+      "difficulty": 2,
+      "instruction": "volatile と同じ語源（volāre＝飛ぶ）を持つ単語は？",
+      "explanationFocus": "cognates",
+      "choices": [
+        "volley（一斉射撃 — 飛ぶ弾）",
+        "volume（量）",
+        "volcano（火山）",
+        "voluntary（自発的な）"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "コロケーション",
+      "difficulty": 2,
+      "instruction": "volatile と最も自然に組み合わさるのは？",
+      "explanationFocus": "cognitive",
+      "choices": [
+        "volatile market",
+        "volatile building",
+        "volatile friendship",
+        "volatile breakfast"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "例文意味推測",
+      "difficulty": 3,
+      "instruction": "\"Gasoline is a highly volatile substance.\" — volatile はどういう意味？",
+      "explanationFocus": "hook",
+      "choices": [
+        "非常に揮発しやすい（蒸発しやすい）",
+        "非常に危険な",
+        "非常に不安定な",
+        "非常に爆発しやすい"
+      ],
+      "correct": 0
+    }
+  ],
+  "examples": [
+    "The stock market has been extremely volatile this week.",
+    "Gasoline is a highly volatile substance.",
+    "The political situation remains volatile."
+  ],
+  "etymology": {
+    "fact": "ラテン語 volātilis（volāre＝飛ぶ + -tilis＝〜しやすい）。「飛び去りやすい」が原義。化学の「揮発性」も液体が気体に「飛ぶ」こと。",
+    "source": "EtymOnline: https://www.etymonline.com/word/volatile",
+    "cognates": ["volley（飛ぶ弾の一斉射撃）", "volant（飛翔する）"],
+    "oneliner": "volāre（飛ぶ）+ -tilis（〜しやすい）＝ 飛び去りやすい"
+  },
+  "cognitive": {
+    "fact": "英語では制御できないものを「飛ぶ」と認知する。fly off the handle＝キレる、time flies＝時が飛ぶ。volatile は「いつ飛んでいくかわからない」不確実性。",
+    "source": "Lakoff (1987) — CONTROL IS HOLDING / LACK OF CONTROL IS FLYING",
+    "label": "認知言語学",
+    "oneliner": "制御できない＝飛んでいく。volatile は「いつ飛ぶかわからない」。"
+  },
+  "gap": "「不安定な」と覚えると unstable と同じになる。volatile は「飛び去りそう」、unstable は「倒れそう」。volatile market ＝ いつ吹っ飛ぶかわからない市場。",
+  "gapOneliner": "unstable は「倒れそう」。volatile は「飛びそう」。",
+  "hook": {
+    "text": "沸騰したやかんの蓋がカタカタ。蒸気が今にも飛び出す。その状態が volatile。",
+    "label": "記憶フック",
+    "contradicts_etymology": false
+  }
+}
