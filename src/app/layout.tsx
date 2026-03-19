@@ -13,9 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "記憶しない英単語 — 語源から理解する英単語学習",
-  description:
-    "記憶した単語は消える。理解した単語は残る。語源×認知言語学で「腑に落ちる」英単語トレーニング。",
+  title: "記憶しない英単語",
+  description: "記憶した単語は消える。理解した単語は残る。",
 };
 
 export default function RootLayout({
@@ -26,9 +25,9 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-screen">{children}</body>
     </html>
   );
 }

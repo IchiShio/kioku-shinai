@@ -1,18 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #08080e;
-  --foreground: #eaeaf2;
-  --surface: #111118;
-  --surface2: #1a1a25;
-  --surface3: #242432;
-  --accent: #7c6cf0;
-  --accent2: #b4a9ff;
-  --correct: #34d399;
-  --wrong: #f87171;
-  --text2: #6b6b82;
-  --gold: #fbbf24;
-  --border: #2a2a38;
+  --background: #faf9f6;
+  --foreground: #1a1a1a;
+  --surface: #ffffff;
+  --surface2: #f0efeb;
+  --surface3: #e8e6e1;
+  --accent: #c0392b;
+  --accent2: #e74c3c;
+  --accent-soft: #fdf0ef;
+  --correct: #1a8a5c;
+  --correct-soft: #edf8f3;
+  --wrong: #c0392b;
+  --wrong-soft: #fdf0ef;
+  --text2: #7a7a7a;
+  --gold: #b8860b;
+  --gold-soft: #fdf6e3;
+  --border: #e0ddd6;
+  --ink: #1a1a1a;
 }
 
 @theme inline {
@@ -23,11 +28,16 @@
   --color-surface3: var(--surface3);
   --color-accent: var(--accent);
   --color-accent2: var(--accent2);
+  --color-accent-soft: var(--accent-soft);
   --color-correct: var(--correct);
+  --color-correct-soft: var(--correct-soft);
   --color-wrong: var(--wrong);
+  --color-wrong-soft: var(--wrong-soft);
   --color-text2: var(--text2);
   --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
   --color-border: var(--border);
+  --color-ink: var(--ink);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -38,28 +48,13 @@ body {
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(16px); }
+  from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
-@keyframes scaleIn {
-  from { opacity: 0; transform: scale(0.92); }
-  to { opacity: 1; transform: scale(1); }
-}
 @keyframes slideRight {
-  from { opacity: 0; transform: translateX(-20px); }
+  from { opacity: 0; transform: translateX(-24px); }
   to { opacity: 1; transform: translateX(0); }
 }
-@keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(124, 108, 240, 0); }
-  50% { box-shadow: 0 0 20px 4px rgba(124, 108, 240, 0.15); }
-}
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
-}
 
-.animate-fade-up { animation: fadeUp 0.35s ease; }
-.animate-scale-in { animation: scaleIn 0.3s ease; }
-.animate-slide-right { animation: slideRight 0.3s ease; }
-.animate-pulse-glow { animation: pulse-glow 2s infinite; }
-.animate-float { animation: float 3s ease-in-out infinite; }
+.animate-fade-up { animation: fadeUp 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+.animate-slide-right { animation: slideRight 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
