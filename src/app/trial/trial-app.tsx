@@ -80,14 +80,31 @@ function choiceCls(i: number, correct: number, ans: number | null) {
 
 interface FP { word: WordData; fmt: WordData["formats"][0]; ans: number | null; onAns: (i: number) => void; play: (p: string) => void }
 
+function PlayBtn({ word, play }: { word: string; play: (p: string) => void }) {
+  return (
+    <button
+      onClick={() => play(`/audio/${word}/word.mp3`)}
+      className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent-soft hover:bg-accent/20 transition-colors ml-2 align-middle"
+      aria-label="発音を聞く"
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+      </svg>
+    </button>
+  );
+}
+
 /** 英→日選択 */
 function L1({ word, fmt, ans, onAns, play }: FP) {
   return (
     <>
       <div className="text-center py-6">
-        <button onClick={() => play(`/audio/${word.word}/word.mp3`)} className="text-[42px] font-black text-ink tracking-tight hover:text-accent transition-colors cursor-pointer">
-          {word.word}
-        </button>
+        <div className="flex items-center justify-center">
+          <span className="text-[42px] font-black text-ink tracking-tight">{word.word}</span>
+          <PlayBtn word={word.word} play={play} />
+        </div>
         <div className="text-base text-text2 mt-1">{word.phonetic}</div>
         <p className="text-xl text-ink font-bold mt-5">{fmt.instruction}</p>
       </div>
@@ -133,11 +150,14 @@ function L2({ word, fmt, ans, onAns, play }: FP) {
 }
 
 /** 語源クイズ */
-function L3({ word, fmt, ans, onAns }: Omit<FP, "play">) {
+function L3({ word, fmt, ans, onAns, play }: FP) {
   return (
     <>
       <div className="text-center py-6">
-        <div className="text-3xl font-black text-ink mb-4">{word.word}</div>
+        <div className="flex items-center justify-center mb-4">
+          <span className="text-3xl font-black text-ink">{word.word}</span>
+          <PlayBtn word={word.word} play={play} />
+        </div>
         <div className="flex items-center justify-center gap-2 mb-3">
           {ans !== null ? (
             <EtymBlocks parts={word.parts} />
@@ -169,9 +189,10 @@ function L4({ word, fmt, ans, onAns, play }: FP) {
     <>
       <div className="text-center py-6">
         <p className="text-xl text-ink font-bold mb-4">{fmt.instruction}</p>
-        <button onClick={() => play(`/audio/${word.word}/word.mp3`)} className="text-4xl font-black text-accent hover:text-accent2 transition-colors cursor-pointer">
-          {word.word}
-        </button>
+        <div className="flex items-center justify-center">
+          <span className="text-4xl font-black text-accent">{word.word}</span>
+          <PlayBtn word={word.word} play={play} />
+        </div>
         <div className="text-xl text-text2 mt-3 font-light">+ ???</div>
       </div>
       <div className="space-y-2.5">
@@ -184,7 +205,7 @@ function L4({ word, fmt, ans, onAns, play }: FP) {
 }
 
 /** 例文推測 */
-function L5({ word, fmt, ans, onAns }: Omit<FP, "play">) {
+function L5({ word, fmt, ans, onAns, play }: FP) {
   const m = fmt.instruction.match(/"([^"]+)"/);
   const quote = m ? m[1] : "";
   const q = fmt.instruction.replace(/"[^"]+"/, "").replace(/^[\s—-]+/, "");
@@ -347,7 +368,13 @@ export default function TrialApp({ words }: { words: Record<string, WordData[]> 
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [queue, qi, cw, cf, cur, ans]);
 
-  const play = useCallback((p: string) => { new Audio(p).play().catch(() => {}); }, []);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const play = useCallback((p: string) => {
+    if (audioRef.current) { audioRef.current.pause(); }
+    const a = new Audio(p);
+    audioRef.current = a;
+    a.play().catch(() => {});
+  }, []);
 
   const handleFeedback = useCallback((data: FD) => {
     const payload = { ...data, level, correct, total, ts: Date.now() };
@@ -437,9 +464,9 @@ export default function TrialApp({ words }: { words: Record<string, WordData[]> 
       <div key={`${qi}-${cur.fmtIdx}`} className="animate-fade-up">
         {ft === "英→日選択" && <L1 word={cw} fmt={cf} ans={ans} onAns={answer} play={play} />}
         {ft === "穴埋め" && <L2 word={cw} fmt={cf} ans={ans} onAns={answer} play={play} />}
-        {ft === "語源クイズ" && <L3 word={cw} fmt={cf} ans={ans} onAns={answer} />}
+        {ft === "語源クイズ" && <L3 word={cw} fmt={cf} ans={ans} onAns={answer} play={play} />}
         {ft === "コロケーション" && <L4 word={cw} fmt={cf} ans={ans} onAns={answer} play={play} />}
-        {ft === "例文意味推測" && <L5 word={cw} fmt={cf} ans={ans} onAns={answer} />}
+        {ft === "例文意味推測" && <L5 word={cw} fmt={cf} ans={ans} onAns={answer} play={play} />}
       </div>
 
       {/* Explanation */}
